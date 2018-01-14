@@ -1,0 +1,3 @@
+[submodule "deps/bme680"]
+	path = deps/bme680
+	url = https://github.com/sistar/bme680.git

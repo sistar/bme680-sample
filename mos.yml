@@ -9,10 +9,15 @@ mongoose_os_version: ${mos.version}
 # Optional. List of tags for online search.
 tags:
   - c
+  - c++
+
 
 # List of files / directories with C sources. No slashes at the end of dir names.
 sources:
   - src
+
+includes:
+  - include
 
 # List of dirs. Files from these dirs will be copied to the device filesystem
 filesystem:
@@ -53,6 +58,7 @@ libs:
   - origin: https://github.com/mongoose-os-libs/rpc-service-fs
   - origin: https://github.com/mongoose-os-libs/rpc-uart
   - origin: https://github.com/mongoose-os-libs/wifi
+  - name: bme680
 
 # Used by the mos tool to catch mos binaries incompatible with this file format
-manifest_version: 2017-05-18
+manifest_version: 2017-09-29
