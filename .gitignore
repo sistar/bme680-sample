@@ -1,0 +1,10 @@
+build/
+.DS_Store
+deps/ca-bundle/
+deps/i2c/
+deps/rpc-common/
+deps/rpc-service-config/
+deps/rpc-service-fs/
+deps/rpc-uart/
+deps/spi/
+deps/wifi/
